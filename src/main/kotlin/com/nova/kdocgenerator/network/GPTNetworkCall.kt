@@ -1,5 +1,6 @@
 package com.nova.kdocgenerator.network
 
+import com.nova.kdocgenerator.credentails.Credentials
 import com.nova.kdocgenerator.model.GPTResponse
 import com.nova.kdocgenerator.util.GsonUtil
 import com.nova.kdocgenerator.util.QueryBuilder
@@ -13,7 +14,7 @@ import java.io.IOException
 
 object GPTNetworkCall {
     private const val OPENAI_API_URL = "https://api.openai.com/v1/completions"
-    private const val OPENAI_API_KEY = "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"
+    private const val OPENAI_API_KEY = Credentials.OPENAI_API_KEY
 
     fun gptNetworkCall(codeSnippet: String): String {
         // Perform the REST API call to OpenAI
