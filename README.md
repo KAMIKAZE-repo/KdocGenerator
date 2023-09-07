@@ -1,6 +1,6 @@
 # IntelliJ IDEA KDoc Generator Plugin
 
-![IntelliJ IDEA Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/1280px-IntelliJ_IDEA_Logo.svg.png)
+![IntelliJ IDEA Logo](https://icon-library.com/images/intellij-idea-icon/intellij-idea-icon-5.jpg)
 
 ## Overview
 
